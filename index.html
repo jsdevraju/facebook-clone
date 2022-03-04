@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Url -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- faceMocion Css -->
+    <link rel="stylesheet" href="./css/faceMocion.css" />
+    <!-- Own Css FIle -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Facebook</title>
+  </head>
+  <body>
+    <!-- Header Navbar Section Start Here -->
+    <header class="header">
+      <nav class="nav_bar">
+        <div class="nav_left">
+          <a href="./index.html">
+            <img src="./img/logo.png" alt="Facebook Logo" class="logo" />
+          </a>
+          <input type="text" placeholder="Search Facebook..." class="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="nav_middle">
+          <ul>
+            <li class="active">
+              <a href="#" class="nav_links">
+                <i class="fa-solid fa-house"></i>
+              </a>
+            </li>
+            <li>
+              <a href="./pages/friendRequested.html" class="nav_links">
+                <i class="fa-solid fa-users"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav_links">
+                <i class="fa-solid fa-video"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav_links"
+                ><i class="fa-solid fa-bullhorn"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav_links"
+                ><i class="fa-solid fa-user-group"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_right">
+          <div class="profile">
+            <img src="./img/profile.jpg" alt="Profile Images" />
+            <span>Razu</span>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-braille"></i>
+            </div>
+            <div
+              class="dropdown-menu dot_menu"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <h3 class="text-center fs-4">Menu</h3>
+              <div class="dot_main">
+                <input
+                  type="text"
+                  placeholder="Search Facebook..."
+                  class="search"
+                />
+
+                <h3 class="fs-4 mt-3">Social</h3>
+                <div class="left_box">
+                  <img src="./img/friends.png" alt="Razu Islam" />
+                  <span>Friends</span>
+                </div>
+                <div class="left_box">
+                  <img src="./img/pages.png" alt="Razu Islam" />
+                  <span>Pages</span>
+                </div>
+                <div class="left_box">
+                  <img src="./img/group.png" alt="Razu Islam" />
+                  <span>Groups</span>
+                </div>
+                <div class="left_box">
+                  <img src="./img/market.png" alt="Razu Islam" />
+                  <span>Marketplace</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="dropdown-menu messagner" aria-labelledby="dropdownMenuButton1">
+              <div class="messagner_header">
+                  <h3>Messenger</h3>
+                  <div class="icon_grp">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <i class="fa-solid fa-expand"></i>
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+               <div class="room_chat">
+                <h5>Mahmudul Hasan Sami</h5>
+                <p>Great . 7m</p>
+               </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+               <div class="room_chat">
+                <h5>Mahmudul Hasan Sami</h5>
+                <p>Great . 7m</p>
+               </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+               <div class="room_chat">
+                <h5>Mahmudul Hasan Sami</h5>
+                <p>Great . 7m</p>
+               </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+               <div class="room_chat">
+                <h5>Mahmudul Hasan Sami</h5>
+                <p>Great . 7m</p>
+               </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+               <div class="room_chat">
+                <h5>Mahmudul Hasan Sami</h5>
+                <p>Great . 7m</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="dropdown-menu notification" aria-labelledby="dropdownMenuButton1">
+              <div class="noti_header">
+                  <h3>Notifications</h3>
+                  <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="noti_btn">
+                  <button class="btn btn-outline-primary">All</button>
+                  <button class="btn btn-primary">Unread</button>
+              </div>
+              <div class="new_noti">
+                  <h5>New</h5>
+                  <a href="#">See All</a>
+              </div>
+              <div class="notification_main">
+                  <div class="user_img">
+                      <img src="./img/profile.jpg" alt="This is demo images">
+                      <img src="./img/comment.png" alt="This images" class="comment">
+                  </div>
+                  <div class="user_say">
+                      <p>
+                         <b> Abu Raihan Abir</b> also commented on a photo in <b>
+                            Jibonmukhi programmers by Khalid Saifullah
+                         </b>
+                      </p>
+                      <span>44 min ago</span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div class="dropdown-menu more" aria-labelledby="dropdownMenuButton1">
+                <div class="single_contract">
+                    <div class="room_people">
+                      <img src="./img/profile.jpg" alt="Razu Islam" />
+                      <div class="dot"></div>
+                    </div>
+                   <div class="room_chat">
+                    <h5>Razu Islam</h5>
+                    <p>See your profile</p>
+                   </div>
+                  </div>
+                 <div class="profile_footer">
+                    <div class="feadback">
+                        <div class="icon">
+                            <i class="fa-solid fa-exclamation"></i>
+                        </div>
+                        <div class="room_chat">
+                            <h5>Give feedback</h5>
+                            <p>Help us improve Facebook</p>
+                           </div>
+                      </div>
+                    <div class="feadback">
+                        <div class="icon">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div class="room_chat">
+                            <h5>Settings & privacy</h5>
+                           </div>
+                      </div>
+                    <div class="feadback">
+                        <div class="icon">
+                            <i class="fa-brands fa-hire-a-helper"></i>
+                        </div>
+                        <div class="room_chat">
+                            <h5>Help & support</h5>
+                           </div>
+                      </div>
+                    <div class="feadback">
+                        <div class="icon">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                        </div>
+                        <div class="room_chat">
+                            <h5>Logout</h5>
+                           </div>
+                      </div>
+                 </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Navbar Section Start Here -->
+    <!-- Home Section Start Here -->
+    <section class="home">
+      <div class="row_container">
+        <!-- Left Side -->
+        <div class="wrapper">
+          <div class="left_box">
+            <img src="./img/profile.jpg" alt="Razu Islam" />
+            <span>Razu Islam</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/friends.png" alt="Razu Islam" />
+            <span>Friends</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/pages.png" alt="Razu Islam" />
+            <span>Pages</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/group.png" alt="Razu Islam" />
+            <span>Groups</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/market.png" alt="Razu Islam" />
+            <span>Marketplace</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/watch.png" alt="Razu Islam" />
+            <span>Watch</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/memories.png" alt="Razu Islam" />
+            <span>Memories</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/bookmark.png" alt="Razu Islam" />
+            <span>Saved</span>
+          </div>
+          <div class="left_box">
+            <img src="./img/event.png" alt="Razu Islam" />
+            <span>Event</span>
+          </div>
+          <div class="left_box d-flex align-items-center">
+            <div class="icon">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <span>See More</span>
+          </div>
+        </div>
+        <!-- Post -->
+        <div class="post">
+          <div class="story_main">
+            <div class="story">
+              <div class="porfile">
+                <img src="./img/profile.jpg" alt="Razu Islam" />
+              </div>
+              <div class="story_img">
+                <img src="./img/story.jpg" alt="Razu Islam" />
+              </div>
+              <p>Razu Islam</p>
+            </div>
+            <div class="story">
+              <div class="porfile">
+                <img src="./img/profile.jpg" alt="Razu Islam" />
+              </div>
+              <div class="story_img">
+                <img src="./img/story.jpg" alt="Razu Islam" />
+              </div>
+              <p>Razu Islam</p>
+            </div>
+            <div class="story">
+              <div class="porfile">
+                <img src="./img/profile.jpg" alt="Razu Islam" />
+              </div>
+              <div class="story_img">
+                <img src="./img/story.jpg" alt="Razu Islam" />
+              </div>
+              <p>Razu Islam</p>
+            </div>
+            <div class="story">
+              <div class="porfile">
+                <img src="./img/profile.jpg" alt="Razu Islam" />
+              </div>
+              <div class="story_img">
+                <img src="./img/story.jpg" alt="Razu Islam" />
+              </div>
+              <p>Razu Islam</p>
+            </div>
+            <div class="story">
+              <div class="porfile">
+                <img src="./img/profile.jpg" alt="Razu Islam" />
+              </div>
+              <div class="story_img">
+                <img src="./img/story.jpg" alt="Razu Islam" />
+              </div>
+              <p>Razu Islam</p>
+            </div>
+            <div class="story">
+              <div class="porfile">
+                <img src="./img/profile.jpg" alt="Razu Islam" />
+              </div>
+              <div class="story_img">
+                <img src="./img/story.jpg" alt="Razu Islam" />
+              </div>
+              <p>Razu Islam</p>
+            </div>
+          </div>
+          <!-- Create Post -->
+          <div class="create_post">
+            <div class="create_post_header">
+              <div class="profile">
+                <img src="./img/profile.jpg" alt="" />
+              </div>
+              <button class="create_p"></button>
+            </div>
+            <div class="create_footer">
+              <div class="video">
+                <img src="./img/video.png" alt="Razu Islam" />
+                <span>Live video</span>
+              </div>
+              <div class="video">
+                <img src="./img/photo.png" alt="Razu Islam" />
+                <span>Photo/videos</span>
+              </div>
+              <div class="video">
+                <img src="./img/emoji.png" alt="Razu Islam" />
+                <span>Emoji</span>
+              </div>
+            </div>
+          </div>
+          <!-- Create Post -->
+          <!-- Create Room -->
+          <div class="create_room">
+            <div class="room_btn">
+              <i class="fa-solid fa-video"></i> Create Room
+            </div>
+            <div class="room_container">
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+              <div class="room_people">
+                <img src="./img/room.jpg" alt="Razu Islam" />
+                <div class="dot"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Create Room -->
+          <!-- Listing Post -->
+          <div class="post_single">
+            <div class="post_header">
+              <div class="post_left">
+                <div class="profile">
+                  <img src="./img/profile.jpg" alt="Razu Islam" />
+                </div>
+                <div class="post_info">
+                  <h5>Razu Islam</h5>
+                  <p>5 March at 18:24 <i class="fa-solid fa-user-group"></i></p>
+                </div>
+              </div>
+              <div class="post_right">
+                <div class="dropdown">
+                  <div
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Post Images -->
+            <div class="post_img">
+              <img src="./img/post.jpeg" alt="This Post Images" />
+            </div>
+            <div class="like_count">
+              <img src="./img/like.png" alt="This like" />
+              <img src="./img/love.png" alt="This like" />
+              <span>106</span>
+            </div>
+            <!-- Like Comment Share -->
+            <div class="lcs">
+              <button class="like_btn active">
+                <i class="fa-solid fa-thumbs-up"></i> Like
+              </button>
+              <button class="comment_btn">
+                <i class="fa-solid fa-message"></i> Comment
+              </button>
+              <div class="dropdown">
+                <button
+                  class="share_btn"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-solid fa-share"></i> Share
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Listing Post -->
+          <!-- Listing Post -->
+          <div class="post_single">
+            <div class="post_header">
+              <div class="post_left">
+                <div class="profile">
+                  <img src="./img/profile.jpg" alt="Razu Islam" />
+                </div>
+                <div class="post_info">
+                  <h5>Razu Islam</h5>
+                  <p>5 March at 18:24 <i class="fa-solid fa-user-group"></i></p>
+                </div>
+              </div>
+              <div class="post_right">
+                <div class="dropdown">
+                  <div
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Post Images -->
+            <div class="post_img">
+              <img src="./img/post.jpeg" alt="This Post Images" />
+            </div>
+            <div class="like_count">
+              <img src="./img/like.png" alt="This like" />
+              <img src="./img/love.png" alt="This like" />
+              <span>106</span>
+            </div>
+            <!-- Like Comment Share -->
+            <div class="lcs">
+              <button class="like_btn active">
+                <i class="fa-solid fa-thumbs-up"></i> Like
+              </button>
+              <button class="comment_btn">
+                <i class="fa-solid fa-message"></i> Comment
+              </button>
+              <div class="dropdown">
+                <button
+                  class="share_btn"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-solid fa-share"></i> Share
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Listing Post -->
+        </div>
+        <!-- Sponsor -->
+        <div class="sponsor">
+          <h5>Sponsored</h5>
+          <div class="sponsor_area">
+            <div class="spons_post">
+              <div class="sp_img">
+                <img src="./img/sp.jpg" alt="This images" />
+              </div>
+              <div class="sp_right">
+                <h4>Elite Software Enginner Wanted</h4>
+                <p class="text-muted">developers.turing.com</p>
+              </div>
+            </div>
+            <div class="spons_post">
+              <div class="sp_img">
+                <img src="./img/sp1.jpg" alt="This images" />
+              </div>
+              <div class="sp_right">
+                <h4>Elite Software Enginner Wanted</h4>
+                <p class="text-muted">developers.turing.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="contract mt-3">
+            <div class="contract_header">
+              <h5>Contacts</h5>
+              <div class="icon_grp">
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+            </div>
+            <div class="contact_container">
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="./img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <h5>Mahmudul Hasan Sami</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section Start Here -->
+
+    <!-- Bootstrap Js File  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Jquery Url here -->
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <!-- faceMocion js -->
+    <script src="./js/faceMocion.js"></script>
+
+    <!-- Main Js File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

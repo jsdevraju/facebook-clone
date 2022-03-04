@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Url -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="../img/logo.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- faceMocion Css -->
+    <link rel="stylesheet" href="../css/faceMocion.css" />
+    <!-- Own Css FIle -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <title>Friends | Facebook</title>
+  </head>
+  <body>
+    <!-- Header Navbar Section Start Here -->
+    <header class="header">
+      <nav class="nav_bar">
+        <div class="nav_left">
+          <a href="../index.html">
+            <img src="../img/logo.png" alt="Facebook Logo" class="logo" />
+          </a>
+          <input type="text" placeholder="Search Facebook..." class="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="nav_middle">
+          <ul>
+            <li>
+              <a href="../index.html" class="nav_links">
+                <i class="fa-solid fa-house"></i>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./pages/friendRequested.html" class="nav_links">
+                <i class="fa-solid fa-users"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav_links">
+                <i class="fa-solid fa-video"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav_links"
+                ><i class="fa-solid fa-bullhorn"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav_links"
+                ><i class="fa-solid fa-user-group"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav_right">
+          <div class="profile">
+            <img src="../img/profile.jpg" alt="Profile Images" />
+            <span>Razu</span>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-braille"></i>
+            </div>
+            <div
+              class="dropdown-menu dot_menu"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <h3 class="text-center fs-4">Menu</h3>
+              <div class="dot_main">
+                <input
+                  type="text"
+                  placeholder="Search Facebook..."
+                  class="search"
+                />
+
+                <h3 class="fs-4 mt-3">Social</h3>
+                <div class="left_box">
+                  <img src="../img/friends.png" alt="Razu Islam" />
+                  <span>Friends</span>
+                </div>
+                <div class="left_box">
+                  <img src="../img/pages.png" alt="Razu Islam" />
+                  <span>Pages</span>
+                </div>
+                <div class="left_box">
+                  <img src="../img/group.png" alt="Razu Islam" />
+                  <span>Groups</span>
+                </div>
+                <div class="left_box">
+                  <img src="../img/market.png" alt="Razu Islam" />
+                  <span>Marketplace</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div
+              class="dropdown-menu messagner"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <div class="messagner_header">
+                <h3>Messenger</h3>
+                <div class="icon_grp">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <i class="fa-solid fa-expand"></i>
+                  <i class="fa-solid fa-video"></i>
+                  <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="../img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <div class="room_chat">
+                  <h5>Mahmudul Hasan Sami</h5>
+                  <p>Great . 7m</p>
+                </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="../img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <div class="room_chat">
+                  <h5>Mahmudul Hasan Sami</h5>
+                  <p>Great . 7m</p>
+                </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="../img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <div class="room_chat">
+                  <h5>Mahmudul Hasan Sami</h5>
+                  <p>Great . 7m</p>
+                </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="../img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <div class="room_chat">
+                  <h5>Mahmudul Hasan Sami</h5>
+                  <p>Great . 7m</p>
+                </div>
+              </div>
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="../img/room.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <div class="room_chat">
+                  <h5>Mahmudul Hasan Sami</h5>
+                  <p>Great . 7m</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-bell"></i>
+            </div>
+            <div
+              class="dropdown-menu notification"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <div class="noti_header">
+                <h3>Notifications</h3>
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="noti_btn">
+                <button class="btn btn-outline-primary">All</button>
+                <button class="btn btn-primary">Unread</button>
+              </div>
+              <div class="new_noti">
+                <h5>New</h5>
+                <a href="#">See All</a>
+              </div>
+              <div class="notification_main">
+                <div class="user_img">
+                  <img src="../img/profile.jpg" alt="This is demo images" />
+                  <img
+                    src="../img/comment.png"
+                    alt="This images"
+                    class="comment"
+                  />
+                </div>
+                <div class="user_say">
+                  <p>
+                    <b> Abu Raihan Abir</b> also commented on a photo in
+                    <b> Jibonmukhi programmers by Khalid Saifullah </b>
+                  </p>
+                  <span>44 min ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <div
+              class="icon"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+            <div
+              class="dropdown-menu more"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <div class="single_contract">
+                <div class="room_people">
+                  <img src="../img/profile.jpg" alt="Razu Islam" />
+                  <div class="dot"></div>
+                </div>
+                <div class="room_chat">
+                  <h5>Razu Islam</h5>
+                  <p>See your profile</p>
+                </div>
+              </div>
+              <div class="profile_footer">
+                <div class="feadback">
+                  <div class="icon">
+                    <i class="fa-solid fa-exclamation"></i>
+                  </div>
+                  <div class="room_chat">
+                    <h5>Give feedback</h5>
+                    <p>Help us improve Facebook</p>
+                  </div>
+                </div>
+                <div class="feadback">
+                  <div class="icon">
+                    <i class="fa-solid fa-gear"></i>
+                  </div>
+                  <div class="room_chat">
+                    <h5>Settings & privacy</h5>
+                  </div>
+                </div>
+                <div class="feadback">
+                  <div class="icon">
+                    <i class="fa-brands fa-hire-a-helper"></i>
+                  </div>
+                  <div class="room_chat">
+                    <h5>Help & support</h5>
+                  </div>
+                </div>
+                <div class="feadback">
+                  <div class="icon">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                  </div>
+                  <div class="room_chat">
+                    <h5>Logout</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header Navbar Section Start Here -->
+
+    <!-- Friend Section Start Here -->
+    <section class="friends">
+      <div class="friends_container">
+        <div class="friend_req">
+          <h3>Friend requests</h3>
+          <a href="#">See All</a>
+        </div>
+        <div class="friendContainer">
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+          <div class="friend_card">
+            <div class="frd_img">
+              <img src="../img/friend.jpg" alt="This is demo images" />
+            </div>
+            <div class="fri_content">
+              <h3>Md Razu Islam</h3>
+              <div class="mutial_fri">
+                <img src="../img/profile.jpg" alt="This is demo images" />
+                <span>16 mutal friends</span>
+              </div>
+
+              <div class="friend_btn">
+                <button class="btn btn-primary">Confirm</button>
+                <button class="btn btn-secondary">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Friend Section Ends Here -->
+
+    <!-- Bootstrap Js File  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Jquery Url here -->
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <!-- faceMocion js -->
+    <script src="../js/faceMocion.js"></script>
+
+    <!-- Main Js File -->
+    <script src="../js/app.js"></script>
+  </body>
+</html>
